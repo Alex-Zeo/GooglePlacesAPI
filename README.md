@@ -1,5 +1,5 @@
 # Data mining GooglePlacesAPI
-This python script retrieves restaurants and it's place details (lat &amp; long) from Google Places API.
+This python script retrieves restaurants and place details (lat &amp; long) from Google Places API.
 These details are used to create comp sets to model the Fifa World Cup 2026 US markets. 
 
 Problems: Google Places API returns 60 maximum results per query
@@ -8,7 +8,7 @@ Solution: Break up a big search into many smaller searches using a tiled grid
 V1 Gaps of expected restaurants were identified in the resulting data. To investigate these gaps a visualization was generated and visual gaps were identified.
 ![image](https://github.com/Alex-Zeo/GooglePlacesAPI/assets/6181715/c0cf9cb6-8808-461a-81b6-41be672dc0de)
 
-V2
+V2 Tiled Grid Formula adjusted to add an overlap between the tiles. This ensures all unique restaurants in the search radius are included.
 ![image](https://github.com/Alex-Zeo/GooglePlacesAPI/assets/6181715/6627ff21-72b3-4184-b95f-3d6621915e5c)
 
 
