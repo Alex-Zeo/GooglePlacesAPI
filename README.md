@@ -1,5 +1,5 @@
 # Data mining GooglePlacesAPI
-This python script retrieves restaurants and place details (lat &amp; long) from Google Places API.
+This python script data mines restaurants and place details (lat &amp; long) from Google Places API.
 These details are used to create comp sets to model the Fifa World Cup 2026 US markets. 
 
 Problems: Google Places API returns 60 maximum results per query
